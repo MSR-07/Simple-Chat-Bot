@@ -44,7 +44,7 @@ def test():
     answer = '4 6'
     guess = str(input())
     while guess != answer:
-        print("Please, try again.")
+        print("Please, Try Again....")
         guess = int(input())
 
     print('🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉')
@@ -59,7 +59,7 @@ def end():
     input()
 
 
-greet('MSR', '2023')
+greet('MSR', '2019')
 remind_name()
 guess_age()
 count()
